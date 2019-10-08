@@ -1,0 +1,267 @@
+/*font-family: 'Montserrat', sans-serif;*/
+
+body {
+    /*Color de Fondo*/
+    background: #333;
+
+    /*Imagen de Fondo*/
+    background: url("../img/contenidos/fondo.jpg") no-repeat top center #fff;
+    background-size: cover;
+}
+
+body main {
+    width: 90em;
+    height: 33em;
+    display: block;
+    position: relative;
+    margin: 9em auto 0;
+    float: inherit;
+}
+
+body main figure {
+    width: 40em;
+    display: block;
+    position: absolute;
+    margin: 0;
+    float: none;
+
+    top: 0;
+    z-index: 1;
+}
+
+body main figure img {
+    width: 9.375em;
+    height: auto;
+    display: block;
+    margin: 0 0 0.938em 0;
+}
+
+body main figure p1 {
+    font-family: 'caviar_dreamsbold';
+    font-size: 4.3em;
+    line-height: 1.2em;
+    font-weight: 300;
+    text-align: left;
+    color: #fff;
+}
+
+body main figure p2 {
+    font-family: 'caviar_dreamsitalic';
+    font-size: 4.3em;
+    line-height: 1.2em;
+    font-weight: 300;
+    text-align: left;
+    color: #9eff2e;
+}
+
+body main figure p3 {
+    font-family: 'caviar_dreamsregular';
+    font-size: 2.5em;
+    line-height: 1.5em;
+    font-weight: 300;
+    text-align: left;
+    color: #9eff2e;
+}
+
+body main figure p4 {
+    font-family: 'montserrat';
+    font-size: 1.2em;
+    line-height: 1.3em;
+    font-weight: 300;
+    text-align: left;
+    color: #fff;
+}
+
+body main nav {
+    width: 17.188em;
+    height: 12.500em;
+    display: block;
+    position: absolute;
+    margin: -0.313em 0 -1.3em;
+    float: left;
+
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+body main nav div#menu-redes {
+    width: 10.938em;
+    height: 2.188em;
+    display: block;
+    margin: 0 0 0.625em 0;
+    float: left;
+    position: relative;
+}
+
+body main nav div#menu-redes a {
+    width: 2.188em;
+    height: 0.938em;
+    display: block;
+    margin: 0 0.688em 0 0;
+    float: left;
+    position: relative;
+
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.625em 0;
+    background: #333;
+    transition: all 0.3s ease-in;
+}
+
+body main nav div#menu-redes a i {
+    font-size: 1.05em;
+    color: #1427ad;
+    transition: all 0.3s ease-in;
+}
+
+body main nav div#menu-redes a:hover {
+    transition: all 0.15s ease-out;
+}
+
+body main nav div#menu-redes a:hover i {
+    color: #1427ad;
+    transition: all 0.15s ease-out;
+}
+
+body main nav div#menu-redes a:nth-child(1) {
+    background: #9eff2e;
+}
+
+body main nav div#menu-redes a:nth-child(2) {
+    background: #9eff2e;
+}
+
+body main nav div#menu-redes a:nth-child(3) {
+    background: #9eff2e;
+}
+
+body main nav div#menu-redes a:nth-child(4) {
+    background: #9eff2e;
+    margin: 0;
+}
+
+body main nav div#menu-redes a:nth-child(1):hover {
+    background: #ececec;
+}
+
+body main nav div#menu-redes a:nth-child(2):hover {
+    background: #ececec;
+}
+
+body main nav div#menu-redes a:nth-child(3):hover {
+    background: #ececec;
+}
+
+body main nav div#menu-redes a:nth-child(4):hover {
+    background: #ececec;
+}
+
+
+
+body main nav div#link-wp {
+    width: 100%;
+    height: 2.188em;
+    display: block;
+    margin: 0 0 0.625em 0;
+    float: right;
+    position: relative;
+}
+
+body main nav div#link-wp a {
+    width: 100%;
+    height: 2.188em;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+
+    border-radius: 1.563em;
+    text-align: center;
+    padding: 0;
+    background: #9eff2e;
+    transition: all 0.3s ease-in;
+}
+
+body main nav div#link-wp a i {
+    width: 2.188em;
+    height: 1.125em;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+
+    font-size: 1.4em;
+    padding: 0.3em 0.313em 0 0.625em;
+    color: #1427ad;
+    transition: all 0.3s ease-in;
+}
+
+body main nav div#link-wp a span {
+    width: auto;
+    height: 1.125em;
+    display: block;
+    margin: 0.8em 0em 0em 0;
+    float: left;
+    position: relative;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 0.035em;
+    text-align: right;
+    color: #1427ad;
+    transition: all 0.3s ease-in;
+}
+
+body main nav div#link-wp a:hover {
+    background: #fff;
+    transition: all 0.15s ease-out;
+}
+
+body main nav div#link-wp a:hover i {
+    color: #1427ad;
+    transition: all 0.15s ease-out;
+}
+
+body main nav div#link-wp a:hover span {
+    color: #1427ad;
+    ;
+    transition: all 0.15s ease-out;
+}
+
+
+
+body main nav div#botones-contacto {
+    width: 100%;
+    height: 4.375em;
+    display: block;
+    margin: 0.313em auto;
+    float: right;
+    position: relative;
+}
+
+body main nav div#botones-contacto a {
+    font-family: 'montserrat';
+    font-size: 1em;
+    line-height: 1.3em;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    text-decoration: none
+}
+
+body main nav div#botones-contacto a i {
+    font-size: 1.05em;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+body main nav div#botones-contacto a:hover {
+    transition: all 0.15s ease-out;
+    color: #9eff2e
+}
+
+body main nav div#botones-contacto a:hover i {
+    color: #9eff2e;
+    transition: all 0.15s ease-out;
+}
